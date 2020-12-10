@@ -1,0 +1,108 @@
+
+
+
+
+body {background-color: #16697A;
+
+font-family: 'Didact Gothic', sans-serif;
+
+margin: center;
+letter-spacing: 2px;
+
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px
+	}
+}
+
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px
+	}
+}
+img {
+	width: 250px;
+	border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+}
+
+
+
+
+
+
+h1 {
+	font-family: 'Crete Round', serif;
+	color: #DB6400;
+	text-align: center;
+}
+
+h2 {
+	color: #FFA62B;
+	text-align: center;
+}
+
+h4,p {
+	color: #F8F1F1;
+	text-align: center;
+	
+}
+
+li {
+	text-align: center;
+}
+
+div {
+	background: gray;
+	border-radius: 7px;
+	box-shadow: 10px 15px 30px ;
+	margin: 50px auto;
+	width: 750px;
+	color: rgba(30, 30, 30, 1);
+	padding-top: 4px;
+	padding-bottom: 8px;
+}
+
+
+ul {
+	color: #F8F1F1;
+	text-align: center;
+	list-style: inline;
+    padding-right: 30px;
+}
+
+
+
+#twit:hover {
+ color: rgba(85, 172, 238, 1);
+}
+
+#insta:hover {
+	color: rgba(228, 64, 95, 1);
+}
+
+#link:hover {
+	color: rgba(14, 118, 168, 1);
+}
+#container {
+	color: rgba(255, 255, 255, 0);
+	margin: 40px auto;
+background: rgba(255, 255, 255, 0);
+}
+
+a {
+	font-size: 45px;
+	color: #FFA62B;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
